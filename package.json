@@ -1,0 +1,34 @@
+{
+  "name": "express-userapp",
+  "version": "0.1.0",
+  "description": "Unofficial UserApp.io Express middleware to authenticate requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/ --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scottcorgan/express-userapp.git"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "userapp",
+    "authenticate"
+  ],
+  "author": "Scott Corgan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scottcorgan/express-userapp/issues"
+  },
+  "homepage": "https://github.com/scottcorgan/express-userapp",
+  "devDependencies": {
+    "mocha": "^1.18.2",
+    "expect.js": "^0.3.1",
+    "supertest": "^0.10.0",
+    "express": "^3.5.1"
+  },
+  "dependencies": {
+    "userapp": "^0.2.3"
+  }
+}
